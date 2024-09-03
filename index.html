@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dennis Kilic</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="terminal">
+        <div id="terminal-content">
+            <p class="welcome">Welcome to My Portfolio!</p>
+            <p class="instructions">Type a command or click an option below:</p>
+            <ul id="command-list">
+                <li><span class="command" data-command="about">about</span></li>
+                <li><span class="command" data-command="projects">projects</span></li>
+                <li><span class="command" data-command="skills">skills</span></li>
+                <li><span class="command" data-command="contact">contact</span></li>
+            </ul>
+            <div id="output"></div>
+            <div id="input-line">
+                <span class="prompt">></span> <input type="text" id="user-input" autofocus>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
